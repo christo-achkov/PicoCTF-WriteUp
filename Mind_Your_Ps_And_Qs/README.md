@@ -51,7 +51,6 @@ m = pow(c,d,n)
 print(long_to_bytes(m))
 ```
 ```bash
-python3 solve.py 
-'picoCTF{sma11_N_n0_g0od_73918962}'
+python3 rsaDecrypt.py
+b'picoCTF{sma11_N_n0_g0od_73918962}'
 ```
-There we go! 
