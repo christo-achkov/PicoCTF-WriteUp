@@ -1,12 +1,10 @@
-# tunn3l v1s10n
-
-## Problem
+# Problem
 
 > We found this file. Recover the flag.
 
 * [file](./tunn3l_v1s10n)
 
-## Solution
+# Solution
 
 1. There is a problem opening the file. Running `file tunn3l_v1s10n` produces `tunn3l_v1s10n: data`, which is not helpful. We can check a [list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) and see if there is a match between the magic bytes. We can see the first bytes in the `tunn3l_v1s10n` file using `xxd -g 1 tunn3l_v1s10n | head`:
 
