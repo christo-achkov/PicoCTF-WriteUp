@@ -61,8 +61,6 @@ while c >= 0:
 When we connect to the attached service, we first get the encrypted flag, then are able to encrypt as much data as we want:
 
 ```console
-┌──(user@kali)-[/media/sf_CTFs/pico/Easy_Peasy]
-└─$ nc mercury.picoctf.net 20266
 ******************Welcome to our OTP implementation!******************
 This is the encrypted flag!
 0345376e1e5406691d5c076c4050046e4000036a1a005c6b1904531d3941055d
@@ -109,9 +107,7 @@ log.success("The flag: {}".format(unhex(r.recvlineS())))
 Output:
 
 ```console
-┌──(user@kali)-[/media/sf_CTFs/pico/Easy_Peasy]
-└─$ python3 solve.py
-[+] Opening connection to mercury.picoctf.net on port 20266: Done
+[+] Opening connection to mercury.picoctf.net on port 41934: Done
 [*] Flag: 0345376e1e5406691d5c076c4050046e4000036a1a005c6b1904531d3941055d
 [+] Causing wrap-around: Done
 [+] The flag: b'abf2f7d5edf082028076bfd7a4cfe9a9'
