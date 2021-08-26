@@ -1,5 +1,5 @@
 # Problem
-> A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{})
+A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{})
 
 ```python
 #!/usr/bin/python3 -u
