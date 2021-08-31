@@ -84,7 +84,7 @@ main:
 	ret
 ```
 Here is the main function with my added "comments". So if we add everything together, what happens? If we just skip to the important bit, before branching to `.L3` the value from `[sp, 12]` is loaded and printed! So what is the flag?
-```E5C69CD8z
+```
 picoCTF{E5C69CD8}
 ```
 Convert `4134207980` into a 32 bit hex string and that is it.
